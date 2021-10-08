@@ -37,3 +37,8 @@
     padding: 2em 0;
 }
 
+.card-header img {
+    display: block;  /* картинка становится блоком */
+    width: 100%; /* ширина 100% от ширины родительского блока (card-header) */
+}
+
