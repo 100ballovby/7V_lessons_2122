@@ -24,6 +24,16 @@
     text-align: center;
 
     border-bottom: 0.2em solid #f5f5f5;  /* серая рамка внизу */
+    background: #e0e0e0;
+
+    transition: 0.5s ease-in-out;
 }
 
+.card:hover { /* когда на карточку наводится мышь */
+    border-bottom: 0.3em solid #fc5a5a;
+}
+
+.card-body {
+    padding: 2em 0;
+}
 
