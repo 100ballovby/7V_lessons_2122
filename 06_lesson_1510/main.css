@@ -1,0 +1,21 @@
+* {
+    margin: 0;  /* обнуляю внешние отступы*/
+    padding: 0;  /* обнуляю внутренние отступы*/
+    box-sizing: border-box; /* альтернативная блочная модель */
+    font-family: sans-serif; /* шрифт без засечек */
+}
+
+/* стилизую шапку сайта */
+.site-header {
+    background: #2264d2;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 1.25em;
+    color: white;
+    font-weight: bold; /* сделать текст полужирным */
+}
+
+.menu {}
+
+
+
