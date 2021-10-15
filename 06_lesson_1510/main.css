@@ -15,7 +15,23 @@
     font-weight: bold; /* сделать текст полужирным */
 }
 
-.menu {}
+.menu li {  /* элементы меню */
+    display: inline-block; /* элементы списка в строчку */
+    margin-right: 2em;
+}
+
+.nav-link {
+    text-decoration: none; /* убираю подчеркивание ссылки */
+    color: white;
+    transition: 0.5s ease-in-out;
+    padding: 0.4em;
+}
+
+.nav-link:hover {  /* когда наводится курсор */
+    border-radius: 1em;
+    background: rgba(0, 0, 0, 0.2);
+}
+
 
 
 
