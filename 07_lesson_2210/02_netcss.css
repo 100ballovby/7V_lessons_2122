@@ -1,0 +1,31 @@
+.container {
+    width: 300px;
+    margin: 1em auto;
+}
+
+.block {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 0.2em dashed #ccc;
+    color: #fc5a5a;
+}
+
+.col1 {
+    float: left;  /* float left - обтекание слева. */
+    width: 120px;
+    min-height: 50px;
+}
+
+.col2 {
+    float: right;  /* float right - это обтекание справа. */
+    width: 120px;
+    min-height: 50px;
+}
+
+.col3 {
+    width: 150px;
+    min-height: 50px;
+    margin: 10px auto;
+
+    clear: both; /* убирает действие свойства float */
+}

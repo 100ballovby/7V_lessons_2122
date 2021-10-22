@@ -1,0 +1,23 @@
+.frame {
+    display: inline-block;
+    margin: 1em;
+    background: #407c40;
+    border-radius: 1em;
+}
+
+.frame img  {
+    max-width: 250px;
+    display: block;
+    border-radius: 1em;
+
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+.frame img:hover {
+    top: -0.2em;
+    left: -0.2em;
+}
+
+
+

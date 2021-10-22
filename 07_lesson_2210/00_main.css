@@ -1,0 +1,22 @@
+.block {
+    margin-bottom: 1.2em;
+    padding: 0.7em;
+    color: #fff;
+    background: #2264d2;
+}
+
+.rel {
+    position: relative;  /* относительное позиционирование */
+    top: 100px;  /* перемещение верхней точки блока
+     относительно изначальной позиции на 10 пикселей */
+    left: -10px;
+    height: 100px;
+}
+
+.shadow {
+    background: #adadad;
+}
+
+
+
+
