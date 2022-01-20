@@ -1,0 +1,53 @@
+.btn {
+    display: inline-block;
+    padding: 1em;
+    margin: 0.5em 0;  /* верх-низ: 0.5, лево-право: 0*/
+    background: transparent; /* прозрачный фон  */
+    color: #898989;  /* цвет текста */
+    border: 2px solid #898989; /*рамка вокруг: размер стиль цвет*/
+    border-radius: 2em;  /* скругление углов */
+
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-danger {
+    color: #b10404;
+    border-color: #b10404;
+}
+
+.btn-primary {
+    color: #1e72d1;
+    border-color: #1e72d1;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background: #c90a0a;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background: #207ae0;
+}
+
+.frame {
+    margin: 1em auto;
+    padding: 3em;
+    width: 50%;
+}
+
+.alert {
+    padding: 1em;
+    border: 2px solid #d6e9c6;
+    border-radius: 1em;
+    color: #3c763d;
+    background: #dff0d8;
+}
+
+.container {
+    width: 40%;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+
