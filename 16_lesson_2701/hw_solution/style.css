@@ -1,0 +1,18 @@
+.alert-success {
+    width: 60%;
+    background: #b6ffb8;
+    padding: 1em;
+    margin: 50px auto;
+    border: 2px solid #529853;
+    color: #529853;
+}
+
+.alert-danger {
+    width: 60%;
+    background: #ffd6b6;
+    padding: 1em;
+    margin: 50px auto;
+    border: 2px solid #c29812;
+    color: #c29812;
+}
+
