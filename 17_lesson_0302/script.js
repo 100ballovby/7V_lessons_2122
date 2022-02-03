@@ -1113,7 +1113,7 @@ function create_list(array) {
 
         name.innerHTML = array[artist]['DisplayName'];  // добавляю имя художника в заголовок
         nationality.innerHTML = array[artist]['Nationality']; // добавляю национальность в параграф
-        start_date.innerHTML = array[artist]['BeginDate'];
+        start_date.innerHTML = array[artist]['BeginDate'];  // добавляю дату начала работы
 
         div.appendChild(name);  // добавляю в div имя
         div.appendChild(nationality);  // добавляю в div национальность
