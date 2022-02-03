@@ -1,0 +1,14 @@
+.artists {  /* общий раздел с художниками */
+    display: flex;  /* объекты будут подстраиваться под размер экрана  */
+    flex-direction: row; /* все объекты расположить в строчку */
+    flex-wrap: wrap; /* если объект не помещается в строке, он будет перенесен на следующую */
+    justify-content: space-between;  /* расстояние между объектами */
+}
+
+.artist-card {  /* карточка каждого отдельного художника */
+    width: 20%;
+    max-width: 200px;
+    border-radius: 2em;
+    border: 5px solid #ffe818;
+    margin-bottom: 1em;
+}
