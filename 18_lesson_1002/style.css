@@ -1,0 +1,28 @@
+.tutors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tutor {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border: 0.5em solid #585858;
+    border-radius: 2em;
+
+    text-align: center;
+}
+
+.tutor img {
+    max-width: 400px;
+}
+
+body {
+    font-family: sans-serif;
+    color: #404040;
+}
+
