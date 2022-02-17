@@ -1,9 +1,24 @@
 .table {
-    border: 5px solid black;
     /* Ширина и высота у таблицы отсутствует,
     потому что она подбирается под размер
     того, что в таблице хранится */
     margin: 1em auto;
+    border-collapse: collapse;  /* убирает отступы между ячеек */
+    text-align: center;
+}
+
+td {
+    padding: 0.5em;
+    border-bottom: 2px solid black;
+}
+
+th {
+    padding: 0.75em;
+    border-bottom: 4px solid black;
+}
+
+tr:nth-child(even) {  /* каждая четная строчка таблицы 2,4, ... */
+    background: #d4d4d4;
 }
 
 

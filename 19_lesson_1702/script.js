@@ -423,6 +423,17 @@ function create_table(array) {
     t.appendChild(tr0); // добавляю первую строчку в таблицу
 
     document.body.appendChild(t); // добавляю таблицу в body
+
+    // наполним таблицу данными
+    for (let i = 0; i < array.length; i++) {
+        let tr = document.createElement('tr');  // создаю строчку для каждого объекта в массиве
+        for (let key in array[i]) {  // перебираю каждый ключ в объекте
+            let td = document.createElement('td'); // создаю ячейку для каждого ключа
+            td.innerHTML = array[i][key]; // забираю значение по ключу и вставляю в ячейку
+            tr.appendChild(td);  // добавляю ячейку в строчку
+        }
+        t.appendChild(tr)  // добавляю каждую строчку в таблицу
+    }
 }
 
 create_table(USA_debt);
