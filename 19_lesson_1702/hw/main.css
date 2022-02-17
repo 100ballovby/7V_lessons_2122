@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.president {
+    width: 20%;
+    padding: 1em;
+    border: 5px solid black;
+    border-radius: 2em;
+    margin-bottom: 1em;
+}
+
+.democratic {
+    border-color: #1F9FF2;
+}
+
+.republican {
+    border-color: #DE0100;
+}
