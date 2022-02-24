@@ -1,0 +1,19 @@
+.js-link {
+    text-decoration: none;
+    color: #323232;
+}
+
+.container {
+    width: 20%;
+    margin: 1em auto;
+    padding: 0.2em;
+    box-shadow: 0.2em 0.2em 0.75em #959595;
+    /* тень: смещение_х смещение_у растушевка цвет*/
+}
+
+.image {
+    width: 30%;
+    border: 0.1em solid #686675;
+}
+
+
