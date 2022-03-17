@@ -110,3 +110,26 @@ let salary = {
         'dollar_rate': 3.77
     },
 }
+
+
+function fill_table(data) {
+    let table = document.querySelector('.table');
+    for (let year in data) {
+        let tr = document.createElement('tr');
+        let salary = data[year]['fee']; // сохраняю зарплату
+        if (data[year]['denominated'] === false) {
+            salary += (', деноминированных: ' + salary / 1000)  // пересчитываю зарплату в новых рублях и записываю в ту же переменную
+        }
+        let td1 = document.createElement('td');
+        let td2 = document.createElement('td');
+
+        td1.innerHTML = year;
+        td2.innerHTML = salary;
+
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        table.appendChild(tr);
+    }
+}
+
+fill_table(salary);

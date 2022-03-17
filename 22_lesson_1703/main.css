@@ -1,0 +1,14 @@
+.table {
+    margin: 0 auto;  /* ставлю таблицу посередине страницы  */
+    border-collapse: collapse;  /* убираю отступы между ячеек таблицы  */
+}
+
+th, td {
+    border: 0.2em solid black;
+    padding: 1em;
+}
+
+tr:nth-child(even) {  /* каждая четная строка таблицы */
+    background: #f1f1f1;  /* серый фон */
+}
+
