@@ -1,0 +1,36 @@
+form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 1em;
+    border: 0.5em solid #299dff;
+    border-radius: 2em;
+}
+
+fieldset {
+    padding: 1em;
+    border: 0.15em solid #299dff;
+    border-radius: 2em;
+}
+
+legend {
+    padding: 0.5em;
+    background: #299dff;
+    color: #fff;
+    border-radius: 2em;
+}
+
+
+.block {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+input {
+    width: 50%;
+    border-radius: 2em;
+    padding: 1em;
+    border: 1px solid #989898;
+}
+
+
+
