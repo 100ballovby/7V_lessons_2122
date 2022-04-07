@@ -10,6 +10,7 @@ fieldset {
     padding: 1em;
     border: 0.15em solid #299dff;
     border-radius: 2em;
+    margin-bottom: 0.5em;
 }
 
 legend {
@@ -25,11 +26,28 @@ legend {
     margin-bottom: 2em;
 }
 
-input {
+input[type=text],
+input[type=email] {
     width: 50%;
     border-radius: 2em;
     padding: 1em;
     border: 1px solid #989898;
+}
+
+textarea {
+    border: 1px solid #989898;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.btn {
+    font-size: 20px;
+    width: 100%;
+    padding: 1em;
+    background: #299dff;
+    color: #fff;
+    border-radius: 2em;
+    cursor: pointer;  /* для смены вида курсора  */
 }
 
 

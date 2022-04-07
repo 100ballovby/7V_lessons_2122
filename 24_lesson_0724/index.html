@@ -18,10 +18,30 @@
         </div>
         <div class="block">
             <label for="mail">Ваш Email:
-                <input type="text" id="mail">
+                <input type="email" id="mail">
             </label>
         </div>
+
+        <div class="block">
+            <p>Ваш пол:</p>
+            <label for="men"><input type="radio" name="gender" id="men"> Мужчина</label><br>
+            <label for="women"><input type="radio" name="gender" id="women"> Женщина</label><br>
+            <label for="idk"><input type="radio" name="gender" id="idk"> Не знаю</label>
+        </div>
     </fieldset>
+
+    <fieldset>
+        <legend>Сообщение</legend>
+
+        <div class="block">
+            <label for="message">Ваше сообщение:</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+        </div>
+    </fieldset>
+
+    <input type="submit" value="Отправить" class="btn">
+    <!-- type submit - это кнопка отправки формы. В атрибуте value
+     прописывается текст для кнопки-->
 </form>
 
 </body>
