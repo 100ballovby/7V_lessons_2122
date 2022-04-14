@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h1>Бронирование столика</h1>
+
+<form action="mailto:order@myrestaraunt.com" class="order-form" method="post" enctype="text/plain">
+    <!-- в момент отправки данных форма будет отправлять текст на указанную в
+     action электронную почту -->
+    <fieldset>
+        <legend>Контакты</legend>
+        <div class="form-control">
+            <label for="name">Как к вам обращаться?</label>
+            <input type="text" id="name" name="name" required>  <!-- форма не будет отправляться, пока не заполнят поле name -->
+        </div>
+        <div class="form-control">
+            <label for="phone">По какому номер вам перезвонить?</label>
+            <input type="text" id="phone" name="phone">
+        </div>
+        <div class="form-control">
+            <label for="time">На какое время вам нужен стол?</label>
+            <input type="time" id="time" name="time">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Дополнительная информация</legend>
+        <div class="form-control">
+            <p>На сколько человек нужен стол?</p>
+            <input type="radio" name="cnt" id="one"><label for="one">1</label><br>
+            <input type="radio" name="cnt" id="two"><label for="two">2</label><br>
+            <input type="radio" name="cnt" id="three-plus"><label for="three-plus">3 и более</label><br>
+        </div>
+        <div class="form-control">
+            <input type="checkbox" id="child" name="child"> <label for="child">Среди гостей будут дети</label>
+            <!-- чекбокс - галочка -->
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Предварительный заказ</legend>
+        <div class="form-control">
+            <label for="dishes">Укажите блюда, которые хотите заказать сразу:</label>
+            <select name="dishes" id="dishes" size="6" multiple>  <!-- size - высота списка (сколько элементов видно)
+             multiple позволяет выбирать несколько элементов за раз -->
+                <optgroup label="Закуски">  <!-- группировка элементов списка -->
+                    <option value="bread">Гренки</option>  <!-- элемент списка -->
+                    <option value="salad">Салат</option>
+                    <option value="fruits">Фруктовая тарелка</option>
+                </optgroup>
+            </select>
+        </div>
+    </fieldset>
+
+    <input type="submit" value="Забронировать">
+    <input type="reset" value="Сбросить">
+</form>
+
+</body>
+</html>
