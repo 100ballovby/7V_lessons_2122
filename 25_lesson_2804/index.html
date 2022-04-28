@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="" class="login-form">
+    <div class="wrapper">
+        <label for="username">Login:</label>
+        <input type="text" id="username" name="login">
+    </div>
+    <div class="wrapper">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <img src="Eye.png" alt="" id="eye" onclick="show_password()">
+        <!-- когда кликнут по картинке, вызовется функция show_password -->
+    </div>
+    <div class="wrapper">
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember me</label>
+    </div>
+    <div class="wrapper">
+        <input type="submit" value="Login">
+    </div>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
