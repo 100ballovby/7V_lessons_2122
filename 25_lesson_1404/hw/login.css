@@ -1,0 +1,31 @@
+.login-form {
+    border: 0.15em solid #636363;
+    width: 40%;
+    padding: 1em;
+    margin: 0.5em auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+input[type=email],
+input[type=password] {
+    padding: 0.5em;
+    border-radius: 1em;
+    margin: 0.5em 0;
+}
+
+.btn {
+    width: 80%;
+    padding: 1em;
+    background: #2bad35;
+    color: #fff;
+    border: none;
+    border-radius: 1em;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
