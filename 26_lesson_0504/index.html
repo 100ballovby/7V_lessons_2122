@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h1>Color form</h1>
+<form action="" class="color form">
+    <label for="favcol" class="form-label">Choose your favorite color</label>
+    <input id="favcol" type="color" class="form-control" value="#a0c93e">
+    <div class="btn" onclick="copy_color_code()">Copy color code</div>
+</form>
+
+<form action="" class="form">
+    <label for="color-input">Paste color code</label>
+    <input id="color-input" type="text" class="form-control">
+    <button class="btn" onclick="paint()">Check</button>
+</form>
+<div class="color-board"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
