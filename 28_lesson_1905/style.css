@@ -1,0 +1,21 @@
+.form-valid {
+    width: 40%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.btn {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    background: green;
+    color: #fff;
+    border: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
